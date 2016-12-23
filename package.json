@@ -1,0 +1,23 @@
+{
+  "name": "uet3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/canhnd58/VNU3D.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canhnd58/VNU3D/issues"
+  },
+  "homepage": "https://github.com/canhnd58/VNU3D#readme",
+  "dependencies": {
+    "cesium": "^1.28.0",
+    "express": "^4.14.0"
+  }
+}

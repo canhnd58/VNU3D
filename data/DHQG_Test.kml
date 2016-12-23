@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>DHQG_Test</name>
+<visibility>1</visibility>
+<Schema name="DHQG_Test" id="kml_schema_ft_DHQG_Test">
+<SimpleField type="xsd:string" name="gml_id">
+<displayName>gml_id</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="gml_parent_id">
+<displayName>gml_parent_id</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_target_uri">
+<displayName>citygml_target_uri</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_feature_role">
+<displayName>citygml_feature_role</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_feature_role_attr_name">
+<displayName>citygml_feature_role_attr_name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_feature_role_attr_val">
+<displayName>citygml_feature_role_attr_val</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="gml_description">
+<displayName>gml_description</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="gml_name">
+<displayName>gml_name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_creationDate">
+<displayName>citygml_creationDate</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_terminationDate">
+<displayName>citygml_terminationDate</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="externalReference{}.externalObject.name">
+<displayName>externalReference{}.externalObject.name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="externalReference{}.externalObject.uri">
+<displayName>externalReference{}.externalObject.uri</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="externalReference{}.informationSystem">
+<displayName>externalReference{}.informationSystem</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_generalizes_to{}.xlink_href">
+<displayName>citygml_generalizes_to{}.xlink_href</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_relative_to_terrain">
+<displayName>citygml_relative_to_terrain</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_relative_to_water">
+<displayName>citygml_relative_to_water</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_appearance{}.xlink_href">
+<displayName>citygml_appearance{}.xlink_href</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_level_of_detail{}">
+<displayName>citygml_level_of_detail{}</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_opening{}.xlink_href">
+<displayName>citygml_opening{}.xlink_href</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_class">
+<displayName>citygml_class</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_class_codeSpace">
+<displayName>citygml_class_codeSpace</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_function{}">
+<displayName>citygml_function{}</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_function{}.codeSpace">
+<displayName>citygml_function{}.codeSpace</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_usage{}">
+<displayName>citygml_usage{}</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_usage{}.codeSpace">
+<displayName>citygml_usage{}.codeSpace</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_traffic_area{}.xlink_href">
+<displayName>citygml_traffic_area{}.xlink_href</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="citygml_auxiliary_traffic_area{}.xlink_href">
+<displayName>citygml_auxiliary_traffic_area{}.xlink_href</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="_geometry_name">
+<displayName>_geometry_name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="_part_number">
+<displayName>_part_number</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_DHQG_Test">
+<name>DHQG_Test</name>
+<Placemark id="kml_1">
+<name>kml_1</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>gml_id</th>
+<td>fme-gen-d9bc9bdc-c8c7-11e6-b371-8ca982419e24</td>
+</tr><tr bgcolor="">
+<th>gml_parent_id</th>
+<td>ID98695620-c868-11e6-8ca5-8ca982419e24</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>citygml_target_uri</th>
+<td>http://www.opengis.net/citygml/building/2.0</td>
+</tr><tr bgcolor="">
+<th>citygml_feature_role</th>
+<td>boundedBy</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>_geometry_name</th>
+<td>surfaceMember</td>
+</tr><tr bgcolor="">
+<th>_part_number</th>
+<td>0</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_DHQG_Test">
+<SimpleData name="gml_id">fme-gen-d9bc9bdc-c8c7-11e6-b371-8ca982419e24</SimpleData>
+<SimpleData name="gml_parent_id">ID98695620-c868-11e6-8ca5-8ca982419e24</SimpleData>
+<SimpleData name="citygml_target_uri">http://www.opengis.net/citygml/building/2.0</SimpleData>
+<SimpleData name="citygml_feature_role">boundedBy</SimpleData>
+<SimpleData name="_geometry_name">surfaceMember</SimpleData>
+<SimpleData name="_part_number">0</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Model>
+<Location>
+<longitude>105,782506019357</longitude>
+<latitude>21,0388991032234</latitude>
+<altitude>0</altitude>
+</Location>
+<Link>
+<href>models/model.dae</href>
+</Link>
+</Model>
+</Placemark>
+</Folder>
+</Document></kml>

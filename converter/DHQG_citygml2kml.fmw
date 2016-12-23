@@ -6,55 +6,55 @@
 #    
 #    
 #    /opt/fme-desktop-2016/fme /home/canh/UET3D/converter/DHQG_citygml2kml.fmw
-#          --DestDataset_OGCKML "/home/canh/UET3D/data/DHQG_Test.kml"
-#          --SourceDataset_CITYGML "/home/canh/UET3D/data/DHQG.gml"
+#          --DestDataset_OGCKML "../data/DHQG_Test.kml"
+#          --SourceDataset_CITYGML "../data/DHQG.gml"
 #    
 #    
-#!   FME_SERVER_SERVICES=""
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   VIEW_POSITION="-96.001 -210.002"
-#!   DESTINATION_ROUTING_FILE=""
-#!   SOURCE="NONE"
 #!   BEGIN_PYTHON=""
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   SOURCE_ROUTING_FILE=""
-#!   MAX_LOG_FEATURES="200"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   END_PYTHON=""
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   DOC_TOP_LEFT="3.12403 -781.258"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   REQUIREMENTS=""
-#!   ZOOM_SCALE="100"
-#!   SHOW_ANNOTATIONS="true"
-#!   TITLE=""
-#!   DESTINATION="NONE"
-#!   WORKSPACE_VERSION="1"
-#!   FME_DOCUMENT_PRIORGUID="20d703a6-2f20-4f07-9250-ba5da609be4d,351ee4be-bac6-49ea-b7f5-1253797ae13b,3a98aab6-7665-483e-97a0-e489a5285ece,3be4ec94-c86c-11e6-8ca5-8ca982419e24"
-#!   IGNORE_READER_FAILURE="No"
-#!   END_TCL=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   DESCRIPTION=""
-#!   LOG_FILE=""
+#!   VIEW_POSITION="-96.001 -42.0004"
 #!   CATEGORY=""
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   SHOW_INFO_NODES="true"
 #!   TERMINATE_REJECTED="YES"
 #!   HISTORY=""
-#!   BEGIN_TCL=""
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.3.1 (20161207 - Build 16716 - linux-x64)"
-#!   REQUIREMENTS_KEYWORD=""
 #!   USAGE=""
-#!   FME_BUILD_NUM="16716"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   FME_DOCUMENT_GUID="d35072be-c8c7-11e6-b371-8ca982419e24"
+#!   DESTINATION_ROUTING_FILE=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   MAX_LOG_FEATURES="200"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   LEGAL_TERMS_CONDITIONS=""
+#!   SHOW_ANNOTATIONS="true"
+#!   SOURCE="NONE"
 #!   DOC_EXTENTS="1642.77 551.258"
-#!   PASSWORD=""
+#!   FME_DOCUMENT_PRIORGUID="20d703a6-2f20-4f07-9250-ba5da609be4d,351ee4be-bac6-49ea-b7f5-1253797ae13b,3a98aab6-7665-483e-97a0-e489a5285ece,3be4ec94-c86c-11e6-8ca5-8ca982419e24,d35072be-c8c7-11e6-b371-8ca982419e24"
 #!   PYTHON_COMPATIBILITY="27"
-#!   LAST_SAVE_DATE="2016-12-23T11:25:58"
-#!   SHOW_INFO_NODES="true"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   END_TCL=""
+#!   WORKSPACE_VERSION="1"
+#!   FME_SERVER_SERVICES=""
+#!   LAST_SAVE_DATE="2016-12-23T14:59:53"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   PASSWORD=""
+#!   LAST_SAVE_BUILD="FME(R) 2016.1.3.1 (20161207 - Build 16716 - linux-x64)"
+#!   LOG_FILE=""
+#!   BEGIN_TCL=""
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   TITLE=""
+#!   DOC_TOP_LEFT="3.12403 -781.258"
+#!   REQUIREMENTS_KEYWORD=""
+#!   REQUIREMENTS=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   DESTINATION="NONE"
 #!   REDIRECT_TERMINATORS="NONE"
+#!   FME_BUILD_NUM="16716"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   END_PYTHON=""
+#!   IGNORE_READER_FAILURE="No"
+#!   FME_DOCUMENT_GUID="c966a2c8-c8e5-11e6-b371-8ca982419e24"
+#!   DESCRIPTION=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   ZOOM_SCALE="100"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -70,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="citygml_specular_color xml_buffer citygml_target{}.world_to_texture_matrix xml_buffer fme_basename xml_char(50) multi_reader_id xml_int32 fme_start_angle xml_real64 fme_color xml_char(50) citygml_lod_name xml_buffer fme_secondary_axis xml_real64 fme_sweep_angle xml_real64 fme_geometry fme_char(50) fme_dataset xml_char(50) citygml_transparency xml_real64 multi_reader_keyword xml_char(50) citygml_image_uri xml_buffer fme_text_string xml_char(50) fme_type xml_char(50) citygml_target xml_buffer fme_text_size xml_real64 gml_id xml_buffer citygml_ambient_intensity xml_real64 gml_parent_id xml_buffer citygml_is_front xml_boolean citygml_orientation_matrix xml_buffer multi_reader_full_id xml_int32 citygml_texture_type xml_char(16) citygml_mime_type xml_buffer citygml_shininess xml_real64 citygml_level_of_detail xml_ubyte citygml_theme xml_buffer citygml_emissive_color xml_buffer fme_rotation xml_real64 citygml_library_object xml_buffer citygml_target{}.coordinate_list{}.ring xml_buffer citygml_prefer_world_file xml_boolean citygml_is_smooth xml_boolean citygml_border_color xml_buffer citygml_transformation_matrix xml_buffer fme_primary_axis xml_real64 citygml_target{}.uri xml_buffer citygml_diffuse_color xml_buffer multi_reader_type xml_char(50) citygml_wrap_mode xml_char(16) citygml_target{}.coordinate_list{}.coordinates xml_buffer fme_fill_color xml_char(50) fme_feature_type xml_char(50)"
+#!   EXPOSABLE_ATTRS="fme_rotation xml_real64 citygml_emissive_color xml_buffer citygml_transparency xml_real64 multi_reader_keyword xml_char(50) citygml_lod_name xml_buffer fme_secondary_axis xml_real64 citygml_prefer_world_file xml_boolean citygml_image_uri xml_buffer citygml_transformation_matrix xml_buffer citygml_target{}.uri xml_buffer citygml_target{}.coordinate_list{}.coordinates xml_buffer fme_primary_axis xml_real64 citygml_target{}.coordinate_list{}.ring xml_buffer citygml_level_of_detail xml_ubyte citygml_target xml_buffer citygml_target{}.world_to_texture_matrix xml_buffer fme_type xml_char(50) multi_reader_type xml_char(50) gml_parent_id xml_buffer citygml_ambient_intensity xml_real64 multi_reader_full_id xml_int32 citygml_texture_type xml_char(16) fme_basename xml_char(50) citygml_mime_type xml_buffer citygml_shininess xml_real64 citygml_theme xml_buffer fme_geometry fme_char(50) citygml_library_object xml_buffer fme_dataset xml_char(50) gml_id xml_buffer citygml_border_color xml_buffer multi_reader_id xml_int32 fme_start_angle xml_real64 citygml_is_smooth xml_boolean fme_sweep_angle xml_real64 fme_color xml_char(50) fme_text_size xml_real64 citygml_diffuse_color xml_buffer citygml_is_front xml_boolean citygml_orientation_matrix xml_buffer citygml_wrap_mode xml_char(16) fme_fill_color xml_char(50) fme_feature_type xml_char(50) fme_text_string xml_char(50) citygml_specular_color xml_buffer"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -79,13 +79,17 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE_OR_URL"
 #!   GENERATE_FME_BUILD_NUM="16709"
-#!   START_FEATURE=""
-#!   MAX_FEATURES_PER_FEATURE_TYPE=""
 #!   MIN_FEATURES=""
-#!   COORDSYS=""
 #!   FEATURE_TYPES=""
 #!   MAX_FEATURES=""
+#!   START_FEATURE=""
+#!   COORDSYS=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
 #! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="CITYGML_IN_SEARCH_ENVELOPE_MINX CITYGML_IN_SEARCH_ENVELOPE_MINY CITYGML_IN_SEARCH_ENVELOPE_MAXX CITYGML_IN_SEARCH_ENVELOPE_MAXY CITYGML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
+#! />
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Select the CityGML file(s)"
@@ -97,10 +101,6 @@
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
 #!   VALUE="Specify a name for the CityGML file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="CITYGML_IN_SEARCH_ENVELOPE_MINX CITYGML_IN_SEARCH_ENVELOPE_MINY CITYGML_IN_SEARCH_ENVELOPE_MAXX CITYGML_IN_SEARCH_ENVELOPE_MAXY CITYGML_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -116,7 +116,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="KML21_INFORMATION_POINT_ICON &quot;&quot; KML21_OPACITY &quot;&quot; KML21_FILL_OPACITY &quot;&quot; KML21_PEN_OPACITY &quot;&quot; KML21_ICON_COLOR &quot;&quot; KML21_FILL_COLOR &quot;&quot; KML21_PEN_COLOR &quot;&quot; KML21_SORT_BY_ATTRIBUTE &quot;&quot; KML21_ATTR_IN_DESCRIPTION &quot;&quot; KML21_HTML_DESCRIPTIONS &quot;&quot; KML21_DOCUMENT_FILENAME &quot;&quot; KML21_CREATE_FOLDER_FOR_FEATURE_TYPE &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="kml_link_view_refresh_mode kml_char(50) kml_gx_lookat_altitude_mode kml_char(50) kml_link_href kml_buffer kml_lookat_altitude_mode kml_char(20) kml_latlonbox_east kml_real64 kml_open kml_int16 kml_camera_longitude kml_real64 kml_href kml_buffer kml_viewvolume_topfov kml_int16 kml_tour_stop_tour_duration kml_int16 kml_camera_roll kml_real64 kml_balloon_text_color kml_char(10) kml_location_longitude kml_real64 kml_lookat_gx_timespan_begin kml_datetime kml_id kml_buffer kml_liststyle_item_icon{}.href kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_style_url_highlight kml_buffer kml_hotspot_yunits kml_char(20) kml_polystyle_fill kml_real64 kml_balloon_text_opacity kml_real64 kml_screenxy_xunits kml_char(20) kml_viewvolume_leftfov kml_int16 kml_overlayxy_x kml_real64 kml_link_view_refresh_time kml_int16 kml_overlayxy_y kml_real64 kml_lod_min_fade_extent kml_real64 kml_message kml_buffer kml_icon_opacity kml_real64 kml_max_session_length kml_real64 kml_polystyle_color kml_char(10) kml_description_text kml_buffer kml_icon kml_buffer kml_altitude_mode kml_char(50) kml_atom_author_name kml_buffer kml_schema_url kml_buffer kml_imagepyramid_gridorigin kml_buffer kml_lod_max_fade_extent kml_real64 kml_snippet kml_buffer kml_schema_data{}.value kml_buffer kml_viewvolume_bottomfov kml_int16 kml_rotationxy_x kml_real64 kml_rotationxy_y kml_real64 kml_overlayxy_xunits kml_char(20) fme_text_string kml_char(50) fme_basename kml_char(50) kml_linestyle_color kml_char(10) kml_tour_stop_view_tilt kml_char(25) fme_geometry fme_char(50) kml_attribute_table_title kml_buffer kml_timespan_begin kml_datetime fme_dataset kml_char(50) kml_gx_timespan_begin kml_datetime kml_expires kml_datetime fme_rotation kml_real64 kml_description kml_buffer kml_link_http_query kml_buffer kml_target_style kml_buffer kml_gx_flyto_mode kml_char(10) kml_viewvolume_near kml_int16 kml_link_snippet_max_lines kml_int16 kml_min_refresh_period kml_real64 kml_rotation kml_real64 kml_latlonaltbox_west kml_real64 kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_tessellate kml_int16 kml_imagepyramid_tilesize kml_real64 kml_labelstyle_color_mode kml_char(20) kml_link_refresh_interval kml_real64 kml_liststyle_list_item_type kml_char(50) kml_linestyle_label_visibility kml_boolean kml_hotspot_x kml_int16 kml_hotspot_y kml_int16 kml_gx_altitude_mode kml_char(50) kml_size_x kml_real64 kml_size_y kml_real64 kml_visibility kml_int16 kml_polystyle_outline kml_int16 kml_sort_value kml_buffer kml_lod_max_lod_pixels kml_real64 kml_link_description kml_buffer kml_icon_temp_file_location kml_buffer kml_latlonaltbox_min_altitude kml_real64 kml_lookat_gx_timespan_end kml_datetime kml_link_view_bound_scale kml_real64 kml_size_yunits kml_char(20) kml_latlonaltbox_north kml_real64 kml_snippet_raw_text kml_buffer kml_lookat_tilt kml_real64 kml_extrude kml_int16 kml_tour_stop_tour_name kml_buffer kml_icon_href kml_buffer kml_style_url kml_buffer fme_fill_color kml_char(50) kml_data{}.display_name kml_buffer kml_linestyle_physical_width kml_real64 fme_fill_opacity kml_real64 fme_type kml_char(50) kml_atom_author_email kml_buffer fme_secondary_axis kml_real64 kml_rotationxy_yunits kml_char(20) kml_altitude kml_real64 kml_latlonbox_north kml_real64 kml_label_opacity kml_real64 kml_balloonstyle_text kml_buffer kml_latlonbox_rotation kml_real64 kml_balloonstyle_raw_text kml_buffer kml_atom_link_rel kml_buffer kml_document_path kml_buffer fme_feature_type kml_char(50) kml_latlonaltbox_altitude_mode kml_char(50) kml_lookat_longitude kml_real64 kml_data{}.name kml_buffer kml_icon_http_query kml_buffer kml_tour_stop_view_heading kml_char(25) kml_camera_tilt kml_real64 kml_refresh_visibility kml_int16 kml_link_refresh_mode kml_char(50) kml_gx_play_mode kml_char(20) kml_latlonbox_west kml_real64 kml_latlonaltbox_max_altitude kml_real64 kml_imagepyramid_maxheight kml_int16 fme_primary_axis kml_real64 kml_style_id kml_buffer kml_orientation_roll kml_real64 kml_balloonstyle_bgcolor kml_char(10) kml_screenxy_yunits kml_char(20) fme_opacity kml_real64 kml_label_color kml_char(50) kml_address kml_buffer kml_camera_gx_timespan_end kml_datetime kml_parent kml_buffer kml_icon_view_format kml_buffer kml_update_mode kml_char(10) kml_balloonstyle_text_color kml_char(10) kml_hotspot_xunits kml_char(20) kml_link_snippet kml_buffer kml_tour_stop_flyto_mode kml_char(20) kml_common_style kml_buffer kml_gx_camera_altitude_mode kml_char(50) kml_overlayxy_yunits kml_char(20) kml_icon_color kml_char(50) kml_document kml_buffer kml_camera_altitude_mode kml_char(50) kml_linestyle_width kml_real64 kml_camera_gx_timestamp_when kml_datetime kml_tour_stop_flyto_duration kml_int16 kml_tour_stop_view_range kml_char(25) kml_extended_data_xml kml_buffer kml_scale_x kml_real64 kml_animated_update kml_buffer kml_lookat_heading kml_real64 kml_scale_y kml_real64 kml_labelstyle_scale kml_real64 kml_extended_data_xmlns_url kml_buffer kml_scale_z kml_real64 kml_iconstyle_scale kml_real64 kml_icon_refresh_mode kml_char(50) kml_tour_stop_delay_duration kml_int16 fme_pen_opacity kml_real64 kml_create_info_point kml_char(3) fme_color kml_char(50) kml_tour_stop_display_balloon kml_char(3) kml_style_url_normal kml_buffer kml_draw_order kml_int16 kml_latlonaltbox_east kml_char(255) kml_link_view_format kml_buffer kml_icon_view_refresh_mode kml_char(50) kml_linestyle_color_mode kml_char(20) kml_atom_link_href kml_buffer kml_labelstyle_color kml_char(10) kml_screenxy_x kml_real64 kml_screenxy_y kml_real64 kml_data{}.value kml_buffer kml_iconstyle_color kml_char(10) kml_data{}.display_name_raw_text kml_buffer kml_icon_refresh_interval kml_int16 kml_phone_number kml_buffer kml_viewvolume_rightfov kml_int16 kml_camera_heading kml_real64 kml_liststyle_bgcolor kml_char(50) kml_gx_timespan_end kml_datetime kml_location_latitude kml_real64 kml_location_altitude kml_real64 kml_polystyle_color_mode kml_char(20) kml_target_href kml_buffer kml_icon_view_refresh_time kml_int16 kml_liststyle_item_icon kml_buffer kml_gx_balloon_visibility kml_int16 kml_tour kml_buffer kml_iconstyle_heading kml_real64 kml_lookat_gx_timestamp_when kml_datetime kml_target_style_highlight kml_buffer kml_raw_text kml_buffer kml_timespan_end kml_datetime kml_imagepyramid_maxwidth kml_int16 kml_balloon_color kml_char(10) kml_tour_stop_view_perspective kml_char(15) kml_document_href kml_buffer kml_icon_view_bound_scale kml_real64 kml_balloon_opacity kml_real64 kml_camera_gx_timespan_begin kml_datetime kml_size_xunits kml_char(20) kml_roll kml_real64 kml_fly_to_view kml_int16 kml_lookat_range kml_real64 kml_description_raw_text kml_buffer kml_lookat_altitude kml_real64 kml_lookat_latitude kml_real64 kml_latlonaltbox_south kml_real64 kml_lod_min_lod_pixels kml_real64 kml_target_style_normal kml_buffer kml_camera_latitude kml_real64 kml_camera_altitude kml_real64 kml_link_name kml_buffer kml_liststyle_item_icon{}.state kml_char(50) fme_start_angle kml_real64 kml_gx_duration kml_int16 fme_sweep_angle kml_real64 kml_rotationxy_xunits kml_char(20) fme_text_size kml_real64 kml_timestamp_when kml_datetime kml_name kml_buffer kml_gx_timestamp_when kml_datetime kml_iconstyle_color_mode kml_char(20) kml_cookie kml_buffer kml_orientation_tilt kml_real64 kml_schema_data{}.name kml_buffer kml_orientation_heading kml_real64 kml_shape kml_buffer kml_latlonbox_south kml_real64 kml_tour_stop_delay_type kml_char(10) kml_color kml_char(8)"
+#!   EXPOSABLE_ATTRS="kml_imagepyramid_maxheight kml_int16 kml_orientation_roll kml_real64 kml_link_name kml_buffer kml_lod_max_fade_extent kml_real64 kml_name kml_buffer kml_schema_data{}.value kml_buffer kml_lod_max_lod_pixels kml_real64 kml_extended_data_xmlns_url kml_buffer fme_color kml_char(50) kml_lookat_range kml_real64 kml_viewvolume_topfov kml_int16 fme_text_size kml_real64 kml_tour_stop_view_tilt kml_char(25) kml_latlonaltbox_north kml_real64 kml_camera_gx_timespan_end kml_datetime kml_icon_view_format kml_buffer kml_raw_text kml_buffer kml_timespan_begin kml_datetime kml_iconstyle_color kml_char(10) kml_target_href kml_buffer kml_liststyle_item_icon{}.state kml_char(50) kml_overlayxy_yunits kml_char(20) kml_lookat_gx_timestamp_when kml_datetime kml_open kml_int16 fme_opacity kml_real64 kml_link_href kml_buffer kml_href kml_buffer kml_address kml_buffer kml_gx_timespan_end kml_datetime kml_camera_gx_timespan_begin kml_datetime kml_size_xunits kml_char(20) kml_data{}.display_name_raw_text kml_buffer kml_fly_to_view kml_int16 kml_latlonbox_rotation kml_real64 kml_labelstyle_scale kml_real64 kml_liststyle_item_icon{}.href kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_gx_timespan_begin kml_datetime kml_balloon_opacity kml_real64 kml_icon kml_buffer fme_start_angle kml_real64 kml_gx_duration kml_int16 fme_sweep_angle kml_real64 kml_refresh_visibility kml_int16 kml_lookat_latitude kml_real64 kml_lookat_altitude kml_real64 kml_label_opacity kml_real64 kml_style_url_normal kml_buffer kml_latlonaltbox_west kml_real64 kml_scale_x kml_real64 kml_camera_latitude kml_real64 kml_camera_altitude kml_real64 kml_atom_link_rel kml_buffer kml_scale_y kml_real64 kml_document_path kml_buffer kml_scale_z kml_real64 kml_link_view_format kml_buffer kml_icon_view_refresh_mode kml_char(50) kml_icon_opacity kml_real64 kml_labelstyle_color kml_char(10) kml_tour_stop_tour_name kml_buffer kml_balloonstyle_bgcolor kml_char(10) kml_data{}.display_name kml_buffer kml_schema_url kml_buffer kml_latlonbox_south kml_real64 kml_rotationxy_x kml_real64 kml_polystyle_outline kml_int16 kml_rotationxy_y kml_real64 kml_icon_refresh_interval kml_int16 fme_secondary_axis kml_real64 kml_icon_view_refresh_time kml_int16 kml_camera_roll kml_real64 kml_shape kml_buffer kml_lookat_gx_timespan_begin kml_datetime kml_target_style_highlight kml_buffer kml_tour_stop_flyto_mode kml_char(20) kml_target_style kml_buffer kml_color kml_char(8) kml_overlayxy_x kml_real64 kml_overlayxy_y kml_real64 kml_camera_altitude_mode kml_char(50) kml_gx_balloon_visibility kml_int16 kml_gx_lookat_altitude_mode kml_char(50) kml_cookie kml_buffer kml_linestyle_label_visibility kml_boolean fme_basename kml_char(50) kml_imagepyramid_maxwidth kml_int16 kml_hotspot_x kml_int16 kml_tour_stop_view_range kml_char(25) kml_hotspot_y kml_int16 kml_screenxy_xunits kml_char(20) fme_geometry fme_char(50) kml_atom_author_email kml_buffer kml_icon_view_bound_scale kml_real64 kml_rotationxy_yunits kml_char(20) kml_tessellate kml_int16 kml_polystyle_color kml_char(10) fme_text_string kml_char(50) fme_rotation kml_real64 kml_tour_stop_tour_duration kml_int16 kml_latlonbox_west kml_real64 kml_balloonstyle_text kml_buffer kml_rotation kml_real64 kml_description kml_buffer kml_orientation_tilt kml_real64 kml_linestyle_color kml_char(10) kml_icon_href kml_buffer fme_type kml_char(50) kml_linestyle_color_mode kml_char(20) kml_style_url kml_buffer kml_visibility kml_int16 kml_link_refresh_mode kml_char(50) kml_imagepyramid_gridorigin kml_buffer kml_id kml_buffer kml_sort_value kml_buffer kml_link_http_query kml_buffer kml_link_view_refresh_mode kml_char(50) kml_viewvolume_near kml_int16 kml_hotspot_xunits kml_char(20) kml_camera_longitude kml_real64 kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_liststyle_list_item_type kml_char(50) fme_fill_opacity kml_real64 kml_polystyle_color_mode kml_char(20) fme_fill_color kml_char(50) kml_latlonaltbox_altitude_mode kml_char(50) kml_lookat_heading kml_real64 kml_link_view_refresh_time kml_int16 kml_description_text kml_buffer kml_atom_author_name kml_buffer fme_feature_type kml_char(50) kml_size_yunits kml_char(20) kml_latlonaltbox_south kml_real64 kml_description_raw_text kml_buffer kml_lod_min_lod_pixels kml_real64 kml_lookat_tilt kml_real64 kml_overlayxy_xunits kml_char(20) kml_balloon_color kml_char(10) kml_document_href kml_buffer kml_latlonaltbox_min_altitude kml_real64 kml_message kml_buffer kml_gx_play_mode kml_char(20) kml_extended_data_xml kml_buffer kml_linestyle_physical_width kml_real64 kml_altitude kml_real64 kml_atom_link_href kml_buffer kml_icon_refresh_mode kml_char(50) kml_schema_data{}.name kml_buffer kml_viewvolume_rightfov kml_int16 fme_primary_axis kml_real64 kml_snippet kml_buffer kml_attribute_table_title kml_buffer kml_create_info_point kml_char(3) kml_iconstyle_color_mode kml_char(20) kml_size_x kml_real64 kml_icon_temp_file_location kml_buffer kml_link_snippet_max_lines kml_int16 kml_size_y kml_real64 kml_camera_heading kml_real64 kml_liststyle_item_icon kml_buffer kml_tour_stop_delay_type kml_char(10) fme_dataset kml_char(50) kml_latlonaltbox_east kml_char(255) kml_data{}.name kml_buffer kml_latlonbox_north kml_real64 kml_expires kml_datetime kml_lookat_altitude_mode kml_char(20) kml_camera_tilt kml_real64 kml_balloon_text_color kml_char(10) kml_link_snippet kml_buffer kml_location_longitude kml_real64 kml_style_id kml_buffer kml_gx_altitude_mode kml_char(50) kml_common_style kml_buffer kml_imagepyramid_tilesize kml_real64 kml_icon_http_query kml_buffer kml_viewvolume_leftfov kml_int16 kml_icon_color kml_char(50) kml_labelstyle_color_mode kml_char(20) kml_liststyle_bgcolor kml_char(50) kml_max_session_length kml_real64 kml_link_refresh_interval kml_real64 kml_balloon_text_opacity kml_real64 kml_location_latitude kml_real64 kml_location_altitude kml_real64 kml_target_style_normal kml_buffer kml_latlonaltbox_max_altitude kml_real64 kml_link_description kml_buffer kml_iconstyle_heading kml_real64 kml_label_color kml_char(50) kml_snippet_raw_text kml_buffer kml_lookat_gx_timespan_end kml_datetime kml_timestamp_when kml_datetime kml_update_mode kml_char(10) kml_document kml_buffer kml_screenxy_yunits kml_char(20) kml_viewvolume_bottomfov kml_int16 kml_orientation_heading kml_real64 kml_link_view_bound_scale kml_real64 kml_altitude_mode kml_char(50) kml_draw_order kml_int16 kml_tour kml_buffer kml_min_refresh_period kml_real64 kml_camera_gx_timestamp_when kml_datetime kml_extrude kml_int16 kml_tour_stop_flyto_duration kml_int16 kml_rotationxy_xunits kml_char(20) kml_data{}.value kml_buffer kml_screenxy_x kml_real64 kml_screenxy_y kml_real64 kml_linestyle_width kml_real64 kml_phone_number kml_buffer kml_latlonbox_east kml_real64 kml_lookat_longitude kml_real64 kml_gx_timestamp_when kml_datetime kml_balloonstyle_text_color kml_char(10) kml_tour_stop_delay_duration kml_int16 kml_tour_stop_view_perspective kml_char(15) kml_roll kml_real64 kml_gx_flyto_mode kml_char(10) fme_pen_opacity kml_real64 kml_style_url_highlight kml_buffer kml_animated_update kml_buffer kml_tour_stop_view_heading kml_char(25) kml_gx_camera_altitude_mode kml_char(50) kml_lod_min_fade_extent kml_real64 kml_balloonstyle_raw_text kml_buffer kml_parent kml_buffer kml_iconstyle_scale kml_real64 kml_polystyle_fill kml_real64 kml_hotspot_yunits kml_char(20) kml_timespan_end kml_datetime kml_tour_stop_display_balloon kml_char(3)"
 #!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP ogc_layer_group ogc_appearance_group%ogc_advanced_group  Feature Type Settings&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP ogc_appearance_group KML21_FILL_COLOR%KML21_FILL_OPACITY%KML21_PEN_COLOR%KML21_PEN_OPACITY%KML21_SORT_BY_ATTRIBUTE%KML21_INFORMATION_POINT_ICON%KML21_ICON_COLOR  Appearance&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP ogc_advanced_group KML21_ATTR_IN_DESCRIPTION%KML21_DOCUMENT_FILENAME%KML21_CREATE_FOLDER_FOR_FEATURE_TYPE%KML21_HTML_DESCRIPTIONS Advanced&quot; &quot;&quot; &quot;GUI OPTIONAL ICONPICK KML21_INFORMATION_POINT_ICON icons Information Point Icon&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_ICON_COLOR Icon Color&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_FILL_COLOR Fill Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_FILL_OPACITY Fill Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_PEN_COLOR Pen Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_PEN_OPACITY Pen Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL ATTR KML21_SORT_BY_ATTRIBUTE _ Sort By Attribute&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_HTML_DESCRIPTIONS yes%no Use HTML in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_ATTR_IN_DESCRIPTION yes%no Create Attribute Table in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT KML21_DOCUMENT_FILENAME Parent Document File Name&quot; &quot;&quot; &quot;GUI CHOICE KML21_CREATE_FOLDER_FOR_FEATURE_TYPE yes%no Create Folder for Feature Type&quot; yes "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -126,9 +126,17 @@
 #!   DATASET_TYPE="FILE_OR_URL"
 #!   GENERATE_FME_BUILD_NUM="16709"
 #!   FANOUT_EXPRESSION="&lt;Unused&gt;"
-#!   FANOUT_GROUP="NO"
 #!   COORDSYS=""
+#!   FANOUT_GROUP="NO"
 #! >
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_ESTABLISHED_CACHE"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="OGCKML_OUT_OUTPUT_SCHEMA OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS OGCKML_OUT_LOG_VERBOSE OGCKML_OUT_ORIENTATION OGCKML_OUT_DATASET_HINT OGCKML_OUT_STYLE_DOC OGCKML_OUT_SCHEMA_DOC OGCKML_OUT_DETECT_RASTERS OGCKML_OUT_RASTER_MODE OGCKML_OUT_RASTER_FORMAT OGCKML_OUT_TEXTURE_FORMAT OGCKML_OUT_COPY_ICON OGCKML_OUT_REGIONATE_DATA OGCKML_OUT_EXEC_GO_PIPELINE OGCKML_OUT_EXEC_PO_PIPELINE OGCKML_OUT_OMIT_DOCUMENT_ELEMENT OGCKML_OUT_CREATE_EMPTY_FOLDERS OGCKML_OUT_KML21_TARGET_HREF OGCKML_OUT_KML21_FANOUT_TYPE OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS OGCKML_OUT_WRITE_TEXTURES_TXT_FILE KML21_INFORMATION_POINT_ICON KML21_REGIONATOR_PIPELINE KML21_GO_PYRAMIDER_PIPELINE KML21_PO_PYRAMIDER_PIPELINE"
+#! />
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Select the Google Earth KML file(s)"
@@ -138,20 +146,8 @@
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="SUPPORTS_ESTABLISHED_CACHE"
-#!   VALUE="YES"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="kml file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the Google Earth KML File"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="OGCKML_OUT_OUTPUT_SCHEMA OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS OGCKML_OUT_LOG_VERBOSE OGCKML_OUT_ORIENTATION OGCKML_OUT_DATASET_HINT OGCKML_OUT_STYLE_DOC OGCKML_OUT_SCHEMA_DOC OGCKML_OUT_DETECT_RASTERS OGCKML_OUT_RASTER_MODE OGCKML_OUT_RASTER_FORMAT OGCKML_OUT_TEXTURE_FORMAT OGCKML_OUT_COPY_ICON OGCKML_OUT_REGIONATE_DATA OGCKML_OUT_EXEC_GO_PIPELINE OGCKML_OUT_EXEC_PO_PIPELINE OGCKML_OUT_OMIT_DOCUMENT_ELEMENT OGCKML_OUT_CREATE_EMPTY_FOLDERS OGCKML_OUT_KML21_TARGET_HREF OGCKML_OUT_KML21_FANOUT_TYPE OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS OGCKML_OUT_WRITE_TEXTURES_TXT_FILE KML21_INFORMATION_POINT_ICON KML21_REGIONATOR_PIPELINE KML21_GO_PYRAMIDER_PIPELINE KML21_PO_PYRAMIDER_PIPELINE"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="MIME_TYPE"
@@ -160,6 +156,10 @@
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="ALWAYS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Google Earth KML File"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -736,20 +736,20 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_auxiliary_traffic_area{}.xlink_href" ATTR_TYPE="kml_char(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="_geometry_name" ATTR_TYPE="kml_char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="_part_number" ATTR_TYPE="kml_char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="ogc_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_appearance_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_INFORMATION_POINT_ICON" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_ICON_COLOR" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="KML21_DOCUMENT_FILENAME" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="ogc_layer_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_COLOR" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="KML21_ATTR_IN_DESCRIPTION" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_advanced_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="KML21_PEN_OPACITY" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="KML21_SORT_BY_ATTRIBUTE" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="ogc_appearance_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_OPACITY" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="KML21_ICON_COLOR" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="KML21_CREATE_FOLDER_FOR_FEATURE_TYPE" PARM_VALUE="yes"/>
-#!     <DEFLINE_PARM PARM_NAME="KML21_HTML_DESCRIPTIONS" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="KML21_INFORMATION_POINT_ICON" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="KML21_PEN_COLOR" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_CREATE_FOLDER_FOR_FEATURE_TYPE" PARM_VALUE="yes"/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_OPACITY" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_ATTR_IN_DESCRIPTION" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_HTML_DESCRIPTIONS" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_COLOR" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
@@ -928,12 +928,12 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI FILENAME DestDataset_OGCKML KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Destination Google KML File:"
-#!   DEFAULT_VALUE="/home/canh/UET3D/data/DHQG_Test.kml"
+#!   DEFAULT_VALUE="../data/DHQG_Test.kml"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_CITYGML CityGML_Files(*.gml;*.xml;*.gz)|*.gml;*.xml;*.gz|CityGML_Files(*.gml)|*.gml|CityGML_Files(*.xml)|*.xml|Compressed_CityGML_Files(*.gz)|*.gz|All_Files|* Source CityGML File(s):"
-#!   DEFAULT_VALUE="/home/canh/UET3D/data/DHQG.gml"
+#!   DEFAULT_VALUE="../data/DHQG.gml"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -986,23 +986,23 @@
 #!     <XFORM_ATTR ATTR_NAME="citygml_auxiliary_traffic_area{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator"/>
+#!     <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
+#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="9"
@@ -1108,8 +1108,8 @@
 #!     <XFORM_ATTR ATTR_NAME="citygml_auxiliary_traffic_area{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Triangulator"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="11"
@@ -1187,11 +1187,11 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ACCUM_INPUT_ATTRS" PARM_VALUE="Get Attributes From One Representative Feature"/>
 #!     <XFORM_PARM PARM_NAME="BREAKATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="MeshMerger"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="13"
@@ -1235,18 +1235,18 @@
 #!     <XFORM_ATTR ATTR_NAME="citygml_auxiliary_traffic_area{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="VERTICAL_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMATION" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #!     <XFORM_PARM PARM_NAME="VERTICAL_HANDLING" PARM_VALUE="Ignore heights and leave them unchanged"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMATION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOID_HEIGHT_GRID" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="LL-WGS84"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CsmapReprojector"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GEOID_HEIGHT_GRID" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="LL-WGS84"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1350,9 +1350,9 @@
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_CITYGML_1,CITYGML_IN_USE_CITYGML_SCHEMA_FILES_CITYGML_1,CITYGML_IN_ADE_XSD_DOC_CITYGML_1,CITYGML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_CITYGML_1,CITYGML_IN_SRS_AXIS_ORDER_CITYGML_1,CITYGML_IN_TEXTURE_COORDINATES_ORDER_FIX_CITYGML_1,CITYGML_IN_EXPOSE_ATTRS_GROUP_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MINX_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MINY_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MAXX_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MAXY_CITYGML_1,CITYGML_IN_CLIP_TO_ENVELOPE_CITYGML_1,CITYGML_IN_NETWORK_AUTHENTICATION_CITYGML_1,SEARCH_ENVELOPE_COORDINATE_SYSTEM_CITYGML_1,DestDataset_OGCKML_1,OGCKML_OUT_DOCUMENT_NAME_OGCKML_1,OGCKML_OUT_DOCUMENT_DESC_OGCKML_1,OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_1,OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_1,OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_1,OGCKML_OUT_ATOM_LINK_HREF_OGCKML_1,OGCKML_OUT_WATERMARK_NAME_OGCKML_1,OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_1,OGCKML_OUT_WATERMARK_ICON_OGCKML_1,OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_1,OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_1,OGCKML_OUT_KML_WRT_ADV_PARA_OGCKML_1,OGCKML_OUT_DATASET_HINT_OGCKML_1,OGCKML_OUT_STYLE_DOC_OGCKML_1,OGCKML_OUT_SCHEMA_DOC_OGCKML_1,OGCKML_OUT_DETECT_RASTERS_OGCKML_1,OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_1,OGCKML_OUT_RASTER_MODE_OGCKML_1,OGCKML_OUT_RASTER_FORMAT_OGCKML_1,OGCKML_OUT_TEXTURE_FORMAT_OGCKML_1,OGCKML_OUT_COPY_ICON_OGCKML_1,OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_1,OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_1,OGCKML_OUT_ORIENTATION_OGCKML_1,OGCKML_OUT_LOG_VERBOSE_OGCKML_1,OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_1,OGCKML_OUT_REGIONATE_DATA_OGCKML_1,OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_1,OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_1,OGCKML_OUT_KML21_TARGET_HREF_OGCKML_1,OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_1,OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_1,OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_1,OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_1
-DEFAULT_MACRO DestDataset_OGCKML /home/canh/UET3D/data/DHQG_Test.kml
+DEFAULT_MACRO DestDataset_OGCKML ../data/DHQG_Test.kml
 GUI FILENAME DestDataset_OGCKML KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Destination Google KML File:
-DEFAULT_MACRO SourceDataset_CITYGML /home/canh/UET3D/data/DHQG.gml
+DEFAULT_MACRO SourceDataset_CITYGML ../data/DHQG.gml
 GUI MULTIFILE SourceDataset_CITYGML CityGML_Files(*.gml;*.xml;*.gz)|*.gml;*.xml;*.gz|CityGML_Files(*.gml)|*.gml|CityGML_Files(*.xml)|*.xml|Compressed_CityGML_Files(*.gz)|*.gz|All_Files|* Source CityGML File(s):
 INCLUDE [ if {{$(DestDataset_OGCKML)} == {}} { puts_real {Parameter 'DestDataset_OGCKML' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_CITYGML)} == {}} { puts_real {Parameter 'SourceDataset_CITYGML' must be given a value.}; exit 1; }; ]
@@ -1624,32 +1624,32 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME DHQG_citygml2kml
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-CITYGML_1_DEF WallSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer
-# -------------------------------------------------------------------------
-CITYGML_1_DEF FloorSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer
-# -------------------------------------------------------------------------
 CITYGML_1_DEF RoofSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer
 # -------------------------------------------------------------------------
 CITYGML_1_DEF Road   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_class                xml_buffer   citygml_class_codeSpace      xml_buffer   citygml_function{}           xml_buffer   citygml_function{}.codeSpace xml_buffer   citygml_usage{}              xml_buffer   citygml_usage{}.codeSpace    xml_buffer   citygml_traffic_area{}.xlink_href xml_buffer   citygml_auxiliary_traffic_area{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer
 # -------------------------------------------------------------------------
+CITYGML_1_DEF FloorSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer
+# -------------------------------------------------------------------------
+CITYGML_1_DEF WallSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer
+# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD CITYGML_1   INPUT FEATURE_TYPE *    ROUTE CITYGML CITYGML_1::WallSurface TO FME_GENERIC ::WallSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::FloorSurface TO FME_GENERIC ::FloorSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::RoofSurface TO FME_GENERIC ::RoofSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::Road TO FME_GENERIC ::Road ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-CITYGML_1_MERGE_DEF CITYGML_1::WallSurface EXACT WallSurface
-CITYGML_1_MERGE_DEF CITYGML_1::FloorSurface EXACT FloorSurface
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD CITYGML_1   INPUT FEATURE_TYPE *    ROUTE CITYGML CITYGML_1::RoofSurface TO FME_GENERIC ::RoofSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::Road TO FME_GENERIC ::Road ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::FloorSurface TO FME_GENERIC ::FloorSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::WallSurface TO FME_GENERIC ::WallSurface ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 CITYGML_1_MERGE_DEF CITYGML_1::RoofSurface EXACT RoofSurface
 CITYGML_1_MERGE_DEF CITYGML_1::Road EXACT Road
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "WallSurface (CITYGML_1) Splitter"    INPUT FEATURE_TYPE WallSurface    OUTPUT FEATURE_TYPE WallSurface_CITYGML_1
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "FloorSurface (CITYGML_1) Splitter"    INPUT FEATURE_TYPE FloorSurface    OUTPUT FEATURE_TYPE FloorSurface_CITYGML_1
+CITYGML_1_MERGE_DEF CITYGML_1::FloorSurface EXACT FloorSurface
+CITYGML_1_MERGE_DEF CITYGML_1::WallSurface EXACT WallSurface
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "RoofSurface (CITYGML_1) Splitter"    INPUT FEATURE_TYPE RoofSurface    OUTPUT FEATURE_TYPE RoofSurface_CITYGML_1
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Road (CITYGML_1) Splitter"    INPUT FEATURE_TYPE Road    OUTPUT FEATURE_TYPE Road_CITYGML_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "FloorSurface (CITYGML_1) Splitter"    INPUT FEATURE_TYPE FloorSurface    OUTPUT FEATURE_TYPE FloorSurface_CITYGML_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "WallSurface (CITYGML_1) Splitter"    INPUT FEATURE_TYPE WallSurface    OUTPUT FEATURE_TYPE WallSurface_CITYGML_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
